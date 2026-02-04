@@ -6,6 +6,10 @@
   text-decoration: none;
   font-family: "Segoe UI", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   display: grid;
   place-items: center;
@@ -249,7 +253,7 @@ body {
 
 .card-task h4 {
   font-size: 18px;
-  margin-bottom: 8px;
+  margin-top: 250px;
 }
 
 .card-task p {
@@ -263,7 +267,7 @@ body {
 }
 .card-schedule h4 {
   font-size: 18px;
-  margin-bottom: 8px;
+  margin-top: 250px;
 }
 .card-schedule p {
   font-size: 14px;
