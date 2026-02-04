@@ -27,7 +27,7 @@ body {
 /* LEFT MENU */
 .nav {
   display: flex;
-  gap: 22px;
+  gap: 28px;
   list-style: none;
 }
 .nav a {
