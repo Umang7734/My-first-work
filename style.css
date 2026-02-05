@@ -25,7 +25,7 @@ body {
 .header-inner {
   max-width: 1200px;
   margin: auto;
-  padding: 18px 20px;
+  padding: 15px 15px;
   gap: 40px;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ body {
 /* LEFT MENU */
 .nav {
   display: flex;
-  gap: 35px;
+  gap: 52px;
   list-style: none;
 }
 .nav a {
@@ -53,7 +53,7 @@ body {
 .right-nav {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 38px;
 }
 .right-nav a {
   text-decoration: none;
@@ -185,8 +185,8 @@ body {
 }
 
 .container {
-  max-width: 1100px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0 20px;
 }
 .heading {
@@ -239,7 +239,7 @@ body {
 }
 
 .grid-item {
-  border-radius: 24px;
+  border-radius: 22px;
   padding: 30px;
   display: flex;
   align-items: flex-end;
