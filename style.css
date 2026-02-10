@@ -170,7 +170,7 @@ body {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 50px;
 }
 
 .mini-features h4 {
@@ -393,30 +393,31 @@ body {
   }
 
   .cards.center {
+    height: 152px;
     transform: translate(-50%, -50%) translateZ(90px);
     z-index: 5;
   }
 
   .cards.left1 {
-    height: 230px;
+    height: 183px;
     transform: translate(-150%, -50%) rotateY(18deg);
     opacity: 0.85;
   }
 
   .cards.left2 {
-    height: 250px;
+    height: 190px;
     transform: translate(-230%, -50%) rotateY(28deg);
     opacity: 0.55;
   }
 
   .cards.right1 {
-    height: 230px;
+    height: 182px;
     transform: translate(50%, -50%) rotateY(-18deg);
     opacity: 0.85;
   }
 
   .cards.right2 {
-    height: 250px;
+    height: 200px;
     transform: translate(130%, -50%) rotateY(-28deg);
     opacity: 0.55;
   }
