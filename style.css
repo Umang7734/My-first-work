@@ -111,9 +111,12 @@ body {
 /* slider wrapper */
 .slider {
   height: 260px;
+  display: flex;
+  justify-content: center;
   position: relative;
-  margin-top: 80px;
+  margin: 80px auto 0;
   perspective: 1200px;
+  width: fit-content;
 }
 
 /* card base */
@@ -155,6 +158,24 @@ body {
   opacity: 0.6;
 }
 
+.cards.left5 {
+  height: 450px;
+  transform: translate(-560%, -50%) rotateY(80deg);
+  opacity: 0.2;
+}
+
+.cards.left4 {
+  height: 400px;
+  transform: translate(-460%, -50%) rotateY(75deg);
+  opacity: 0.1;
+}
+
+.cards.left3 {
+  height: 350px;
+  transform: translate(-360%, -50%) rotateY(60deg);
+  opacity: 0.3;
+}
+
 .cards.right1 {
   transform: translate(60%, -50%) rotateY(-30deg);
   opacity: 0.9;
@@ -164,6 +185,18 @@ body {
   height: 300px;
   transform: translate(160%, -50%) rotateY(-45deg);
   opacity: 0.6;
+}
+
+.cards.right3 {
+  height: 350px;
+  transform: translate(260%, -50%) rotateY(-60deg);
+  opacity: 0.3;
+}
+
+.cards.right4 {
+  height: 430px;
+  transform: translate(360%, -50%) rotateY(-75deg);
+  opacity: 0.1;
 }
 
 .mini-features {
@@ -327,48 +360,9 @@ body {
     transform: translate(-210%, -50%) rotateY(35deg);
   }
 
-  .cards.right1 {
-    transform: translate(40%, -50%) rotateY(-25deg);
-  }
-
-  .cards.right2 {
-    transform: translate(120%, -50%) rotateY(-35deg);
-  }
-}
-
-@media (max-width: 768px) {
-  .hero {
-    padding: 70px 15px;
-  }
-
-  .hero h1 {
-    font-size: 34px;
-  }
-
-  .hero span {
-    font-size: 40px;
-  }
-
-  .hero p {
-    font-size: 14px;
-  }
-
-  .slider {
-    height: 200px;
-    margin-top: 50px;
-    transform: scale(0.8);
-  }
-
-  .cards.center {
-    transform: translate(-50%, -50%) translateZ(150px);
-  }
-
-  .cards.left1 {
-    transform: translate(-140%, -50%) rotateY(25deg);
-  }
-
-  .cards.left2 {
-    transform: translate(-210%, -50%) rotateY(35deg);
+  .cards.left3 {
+    transform: translate(-280%, -50%) rotateY(45deg);
+    opacity: 0.4;
   }
 
   .cards.right1 {
@@ -378,47 +372,91 @@ body {
   .cards.right2 {
     transform: translate(120%, -50%) rotateY(-35deg);
   }
-}
 
-@media (max-width: 576px) {
-  .slider {
-    height: 210px;
-    margin-top: 40px;
-    perspective: 800px;
+  @media (max-width: 768px) {
+    .hero {
+      padding: 70px 15px;
+    }
+
+    .hero h1 {
+      font-size: 34px;
+    }
+
+    .hero span {
+      font-size: 40px;
+    }
+
+    .hero p {
+      font-size: 14px;
+    }
+
+    .slider {
+      height: 200px;
+      margin-top: 50px;
+      transform: scale(0.8);
+    }
+
+    .cards.center {
+      transform: translate(-50%, -50%) translateZ(150px);
+    }
+
+    .cards.left1 {
+      transform: translate(-140%, -50%) rotateY(25deg);
+    }
+
+    .cards.left2 {
+      transform: translate(-210%, -50%) rotateY(35deg);
+    }
+
+    .cards.right1 {
+      transform: translate(40%, -50%) rotateY(-25deg);
+    }
+
+    .cards.right2 {
+      transform: translate(120%, -50%) rotateY(-35deg);
+    }
   }
 
-  .cards {
-    width: 130px;
-    height: 180px;
-  }
+  @media (max-width: 576px) {
+    .slider {
+      height: 210px;
+      margin-top: 40px;
+      perspective: 800px;
+    }
 
-  .cards.center {
-    height: 152px;
-    transform: translate(-50%, -50%) translateZ(90px);
-    z-index: 5;
-  }
+    .cards {
+      width: 130px;
+      height: 180px;
+    }
 
-  .cards.left1 {
-    height: 183px;
-    transform: translate(-150%, -50%) rotateY(18deg);
-    opacity: 0.85;
-  }
+    .cards.center {
+      height: 152px;
+      transform: translate(-50%, -50%) translateZ(90px);
+      z-index: 5;
+    }
 
-  .cards.left2 {
-    height: 190px;
-    transform: translate(-230%, -50%) rotateY(28deg);
-    opacity: 0.55;
-  }
+    .cards.left1 {
+      height: 183px;
+      transform: translate(-150%, -50%) rotateY(18deg);
+      opacity: 0.85;
+    }
 
-  .cards.right1 {
-    height: 182px;
-    transform: translate(50%, -50%) rotateY(-18deg);
-    opacity: 0.85;
-  }
+    .cards.left2 {
+      height: 190px;
+      transform: translate(-230%, -50%) rotateY(28deg);
+      opacity: 0.55;
+    }
 
-  .cards.right2 {
-    height: 200px;
-    transform: translate(130%, -50%) rotateY(-28deg);
-    opacity: 0.55;
+    .cards.right1 {
+      height: 182px;
+      transform: translate(50%, -50%) rotateY(-18deg);
+      opacity: 0.85;
+    }
+
+    .cards.right2 {
+      height: 200px;
+      transform: translate(130%, -50%) rotateY(-28deg);
+      opacity: 0.55;
+    }
   }
 }
