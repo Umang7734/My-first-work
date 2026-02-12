@@ -81,8 +81,6 @@ body {
 .hero {
   text-align: center;
   padding: 90px 20px;
-  position: relative;
-  min-height: 600px;
 }
 
 .hero h1 {
@@ -112,18 +110,14 @@ body {
 
 /* slider wrapper */
 .slider {
-  margin-top: 190px;
-  height: 220px;
+  height: 260px;
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  margin: 80px auto 0;
   perspective: 1200px;
   width: fit-content;
 }
-
 /* card base */
 .cards {
   position: absolute;
@@ -397,8 +391,7 @@ body {
 
     .slider {
       height: 200px;
-      margin-top: 50px;
-      transform: scale(0.8);
+      transform: translate(-50%, -50%) scale(0.8);
     }
 
     .cards.center {
@@ -425,7 +418,7 @@ body {
   @media (max-width: 576px) {
     .slider {
       height: 210px;
-      margin-top: 40px;
+      transform: translate(-50%, -50%) scale(0.6);
       perspective: 800px;
     }
 
