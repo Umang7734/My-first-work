@@ -152,25 +152,25 @@ body {
 }
 
 .cards.left2 {
-  height: 300px;
+  height: 275px;
   transform: translate(-260%, -50%) rotateY(45deg);
   opacity: 0.6;
 }
 
 .cards.left5 {
-  height: 450px;
+  height: 470px;
   transform: translate(-560%, -50%) rotateY(80deg);
   opacity: 0.2;
 }
 
 .cards.left4 {
   height: 400px;
-  transform: translate(-460%, -50%) rotateY(80deg);
+  transform: translate(-460%, -50%) rotateY(75deg);
   opacity: 0.1;
 }
 
 .cards.left3 {
-  height: 350px;
+  height: 330px;
   transform: translate(-360%, -50%) rotateY(60deg);
   opacity: 0.3;
 }
@@ -455,6 +455,18 @@ body {
       height: 200px;
       transform: translate(130%, -50%) rotateY(-28deg);
       opacity: 0.55;
+    }
+
+    .cards.right5 {
+      height: 210px;
+      transform: translate(210%, -50%) rotateY(-38deg);
+      opacity: 0.3;
+    }
+
+    .cards.right6 {
+      height: 220px;
+      transform: translate(290%, -50%) rotateY(-48deg);
+      opacity: 0.2;
     }
   }
 }
