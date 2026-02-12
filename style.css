@@ -166,7 +166,7 @@ body {
 
 .cards.left4 {
   height: 400px;
-  transform: translate(-460%, -50%) rotateY(75deg);
+  transform: translate(-460%, -50%) rotateY(80deg);
   opacity: 0.1;
 }
 
