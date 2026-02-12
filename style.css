@@ -81,6 +81,8 @@ body {
 .hero {
   text-align: center;
   padding: 90px 20px;
+  position: relative;
+  min-height: 600px;
 }
 
 .hero h1 {
@@ -110,11 +112,14 @@ body {
 
 /* slider wrapper */
 .slider {
-  height: 260px;
+  margin-top: 190px;
+  height: 220px;
   display: flex;
   justify-content: center;
-  position: relative;
-  margin: 80px auto 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   perspective: 1200px;
   width: fit-content;
 }
